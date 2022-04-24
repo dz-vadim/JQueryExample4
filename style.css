@@ -1,0 +1,95 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(270deg, rgb(255, 0, 204) 0%, rgb(86, 23, 145) 100%);
+    color: white;
+    font-family: "Exo 2",Lato,sans-serif;
+    height: 100px;
+}
+
+.catch{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+
+    background: blue;
+    left: 100px;
+    top: 100px;
+}
+
+.move{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+
+    background: rgb(62, 62, 80);
+    left: 50%;
+    top: 50%;
+}
+
+.wrapper{
+    font-size: 40px;
+    color: wheat;
+}
+
+.nav{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0,0,0, 0.3);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.nav2{
+    left: auto;
+    right: 0;
+    bottom: 0;
+}
+.btnNav{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 10px;
+    margin: 5px;
+}
+#LRnav{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    font-size: 30px;
+    padding: 10px;
+}
+input{
+    margin: 0 30px;
+    font-size: 20px;
+}
